@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PelaajaKontrolleri : MonoBehaviour
 {
+    [Tooltip("Autoon lisättävän voiman määrä")]
     public float Voima = 10;            //Lisättävän voiman määrä
     float nopeus;                       //Auton nopeus metreinä sekunnissa
 

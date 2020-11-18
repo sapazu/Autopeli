@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4696126679864791491}
   - component: {fileID: 4696126679864791489}
   - component: {fileID: 4696126679864791490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,11 +90,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4696126680778577964}
+  - component: {fileID: 2087761984436242886}
   - component: {fileID: 4696126680778577965}
   - component: {fileID: 4696126680778577966}
   - component: {fileID: 4696126680778577967}
   - component: {fileID: 4696126680778578000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Auto1
   m_TagString: Pelaaja
   m_Icon: {fileID: 0}
@@ -120,6 +121,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2087761984436242886
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4696126680778578001}
+  m_Material: {fileID: 13400000, guid: 4090bad868171904d896d2a99514c257, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1, y: 1.1, z: 2}
+  m_Center: {x: 0, y: 0.1, z: 0}
 --- !u!65 &4696126680778577965
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -270,7 +284,7 @@ GameObject:
   - component: {fileID: 4696126681333564808}
   - component: {fileID: 4696126681333564806}
   - component: {fileID: 4696126681333564807}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4696126681375384230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VoimanSijainti
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4696126681489687846}
   - component: {fileID: 4696126681489687845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RenkaanJalki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,6 +567,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8fcf79488e7a489479774a58a703627e, type: 3}
       propertyPath: m_Name
       value: PlaceholderAuto
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8fcf79488e7a489479774a58a703627e, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8fcf79488e7a489479774a58a703627e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fcf79488e7a489479774a58a703627e, type: 3}
